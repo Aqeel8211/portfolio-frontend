@@ -170,7 +170,7 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     className="w-full px-3 py-2 sm:px-4 sm:py-3 text-sm sm:text-base rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-600 transition-all"
-                    placeholder="Ali ..."
+                    placeholder="Recruiter Name.."
                   />
                 </div>
                 <div className="w-full sm:w-1/2">
@@ -182,7 +182,7 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     className="w-full px-3 py-2 sm:px-4 sm:py-3 text-sm sm:text-base rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-600 transition-all"
-                    placeholder="Ali@example.com"
+                    placeholder="Email (for reply).."
                   />
                 </div>
               </div>
@@ -196,7 +196,7 @@ const Contact = () => {
                   onChange={handleChange}
                   required
                   className="w-full px-3 py-2 sm:px-4 sm:py-3 text-sm sm:text-base rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-600 transition-all"
-                  placeholder="Project Inquiry"
+                  placeholder="e.g., Job Opportunity"
                 />
               </div>
 
@@ -209,7 +209,7 @@ const Contact = () => {
                   required
                   rows="4"
                   className="w-full px-3 py-2 sm:px-4 sm:py-3 text-sm sm:text-base rounded-lg border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-600 transition-all resize-none"
-                  placeholder="Tell me about your project..."
+                  placeholder="Describe your project or opportunity..."
                 />
               </div>
 
